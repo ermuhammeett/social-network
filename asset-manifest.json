@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ermuhammeett/social-network/static/css/main.112964ed.css",
+    "main.js": "/ermuhammeett/social-network/static/js/main.ddd38b80.js",
+    "static/css/23.b9c2c429.chunk.css": "/ermuhammeett/social-network/static/css/23.b9c2c429.chunk.css",
+    "static/js/23.e8efb7a1.chunk.js": "/ermuhammeett/social-network/static/js/23.e8efb7a1.chunk.js",
+    "static/css/815.9caf77c8.chunk.css": "/ermuhammeett/social-network/static/css/815.9caf77c8.chunk.css",
+    "static/js/815.77722d5c.chunk.js": "/ermuhammeett/social-network/static/js/815.77722d5c.chunk.js",
+    "static/js/787.9c4083a9.chunk.js": "/ermuhammeett/social-network/static/js/787.9c4083a9.chunk.js",
+    "static/media/loader.gif": "/ermuhammeett/social-network/static/media/loader.e9df1df78ff193db28ca.gif",
+    "static/media/user_logo.png": "/ermuhammeett/social-network/static/media/user_logo.4583aa6f6eb627141914.png",
+    "index.html": "/ermuhammeett/social-network/index.html",
+    "main.112964ed.css.map": "/ermuhammeett/social-network/static/css/main.112964ed.css.map",
+    "main.ddd38b80.js.map": "/ermuhammeett/social-network/static/js/main.ddd38b80.js.map",
+    "23.b9c2c429.chunk.css.map": "/ermuhammeett/social-network/static/css/23.b9c2c429.chunk.css.map",
+    "23.e8efb7a1.chunk.js.map": "/ermuhammeett/social-network/static/js/23.e8efb7a1.chunk.js.map",
+    "815.9caf77c8.chunk.css.map": "/ermuhammeett/social-network/static/css/815.9caf77c8.chunk.css.map",
+    "815.77722d5c.chunk.js.map": "/ermuhammeett/social-network/static/js/815.77722d5c.chunk.js.map",
+    "787.9c4083a9.chunk.js.map": "/ermuhammeett/social-network/static/js/787.9c4083a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.112964ed.css",
+    "static/js/main.ddd38b80.js"
+  ]
+}
