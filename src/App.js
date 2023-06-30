@@ -19,7 +19,6 @@ class App extends React.Component{
       return <Preloader/>
     }
     return (
-        <HashRouter>
           <div className="app-wrapper">
             <HeaderContainer />
             <Navbar />
@@ -34,7 +33,6 @@ class App extends React.Component{
               </Suspense>
             </div>
           </div>
-        </HashRouter>
     );
   }
 }

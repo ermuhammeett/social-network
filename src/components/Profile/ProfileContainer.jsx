@@ -7,14 +7,25 @@ import {withRedirectAuth} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
 
 function ProfileContainer(props) {
+     const refreshProfile=(userId)=>{
+        if(!userId){
+            userId=props.authorizedUserId;
+            if(!userId){
+                props.push("/login");
+            }
+        }
+        props.getUserProfile(userId);
+        props.getStatus(userId);
+    }
     let {userId} = useParams();
     if (!userId) {
         userId=props.authorizedUserId;
     }
 
     useEffect(() => {
-        props.getUserProfile(userId);
-        props.getStatus(userId);
+        refreshProfile(userId);
+        //props.getUserProfile(userId);
+        //props.getStatus(userId);
     }, [userId]);
     return (
         <div>
